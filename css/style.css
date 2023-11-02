@@ -1,2 +1,47 @@
-/* This file is intentionally left blank. 
-   Students should write their own CSS code for the project. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -3px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 3.2vw;
+    margin-top: 2.5vw;
+    margin-left: 1vw;
+}
+
+.title span {
+    letter-spacing: 0px;
+    margin: 0 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: 1vw;
+    column-gap: 14px;
+}
+
+.flex-item img {
+    width: 450px;
+    height: 345px;
+    margin-top: 12px;
+
+    object-fit: cover;
+    object-position: 50% 50%;
+
+    transition: transform 550ms;
+}
+
+.flex-item img:hover {
+   transform: scale(0.98);
+   transition: transform opacity 4s ease-in-out;
+   opacity: 0.95;
+}
+
+.spacer {
+    width: 14px;
+}

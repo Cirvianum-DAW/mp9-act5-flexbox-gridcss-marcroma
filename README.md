@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12469822&assignment_repo_type=AssignmentRepo)
 # CSS Flexbox and Grid
 
 This is a simple project to practice CSS Flexbox and Grid. The project contains an `index.html` file, a `css` folder with a `style.css` file, and an `images` folder.
