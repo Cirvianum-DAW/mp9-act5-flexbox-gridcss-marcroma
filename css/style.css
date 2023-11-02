@@ -32,6 +32,14 @@
 
     object-fit: cover;
     object-position: 50% 50%;
+
+    transition: transform 550ms;
+}
+
+.flex-item img:hover {
+   transform: scale(0.98);
+   transition: transform opacity 4s ease-in-out;
+   opacity: 0.95;
 }
 
 .spacer {
